@@ -1,6 +1,4 @@
 # Emotion_Butler
-An Android Application with physiological signals from Empatica E4 Wristband, aiming to care about mental health
-
 The Android application “Emotion Butler” is built with Android Studio, with SDK of Empatica E4 wristband for physiological signal input, especially the ibi(interbeat interval) values for conversion into heart rate values by 60/ibi as bpm(heart per minute). 
 
 The mobile application contains several functions to support users in urgent situation, in short term and in long term.
