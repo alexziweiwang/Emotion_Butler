@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">Emotion Butler</string>
+    <string name="accel">Accelerometers</string>
+    <string name="accel_x">x:</string>
+    <string name="accel_y">y:</string>
+    <string name="accel_z">z:</string>
+    <string name="bvp_label">BVP:</string>
+    <string name="eda_label">EDA:</string>
+    <string name="ibi_label">IBI:</string>
+    <string name="emptyText">-</string>
+    <string name="temp_label">Temperature:</string>
+    <string name="battery_label">Battery:</string>
+    <string name="hrLabel">Heart Rate:</string>
+    <string name="stop">Stop Streaming</string>
+    <string name="hrBaseline">-</string>
+    <string name="blank1">How are you feeling now? (baseline mood)</string>
+    <string name="askArousal">Baseline: Extent of Arousal(deactivation -> activation):</string>
+    <string name="blank2" />
+    <string name="askValence">Baseline: Extent of Valence(unpleasant -> pleasant):</string>
+    <string name="submit2">ok</string>
+    <string name="resetBaseline">Reset HR Baseline</string>
+    <string name="openingText">How can I help you?</string>
+    <string name="blank03"> </string>
+    <string name="opening">\nHi this is Stephan, your personal emotion butler\n\nI am here to rescue, to heal, to support, to motivate\n\nand more importantly, to love you \nwith all my 1 and 0</string>
+    <string name="ok">Okay!</string>
+    <string name="mood_journal">Mood Journal</string>
+    <string name="powerPool">Power Pool</string>
+    <string name="blank06" />
+    <string name="button">💔?</string>
+    <string name="blank07" />
+    <string name="userStress">🙋!!  I am STRESSED OUT..</string>
+    <string name="confirmStress">Feel Stressed and Need Help</string>
+    <string name="askStress">Are you feeling stressful and need help?</string>
+    <string name="breatheTraining">Breathe Training</string>
+    <string name="back">Back</string>
+    <string name="save">Don\'t give up...\nCall 1-800-273-8255\nand they will listen to you!
+
+                    \n\n\n\nHey you. Yeah, YOU! Reading this text right now!\nI am your emotional butler Stephan and I love you!
+                      \n\nBecause I can\'t possibly hate someone who lives and breathes in the same world I do.\n\nThis world is beautiful
+                      and you are beautiful as well. There is so much amazing things out there waiting for you, and I hope you find
+                      some of that today!\n\nI believe in you! ❤\n\n\n️
+                      </string>
+
+    <string name="blank08">\n\n\n\n\n</string>
+    <string name="positiveThinking">Positive Thinking</string>
+    <string name="trainingText">Exhale completely through your mouth, making a whoosh sound.\n</string>
+    <string name="restartButton">Press here before resuming usage of Empatica device</string>
+    <string name="histMood">-</string>
+    <string name="toRC">Realtime Care (w/ Empatica!)</string>
+    <string name="moodJournal">Mood Journal</string>
+    <string name="backHome">Back</string>
+    <string name="goodthing">Think of 1 good thing happened today and today\'s date:</string>
+    <string name="recordBut">Record</string>
+    <string name="goodthing2">Think of 1 thing that you are proud of yourself:</string>
+    <string name="goodthing3">Think of 1 of your small plan: </string>
+    <string name="name">Your name:</string>
+    <string name="checkPower">Dive in my Power Pool</string>
+    <string name="powerpoolcontent"></string>
+    <string name="checkname">Check power pool by name:</string>
+    <string name="brIn">Close your mouth and inhale quietly through your nose to a mental count of 4.\n\n\n</string>
+    <string name="brHold">Hold your breath for a count of 7.\n\n\n</string>
+    <string name="brOut">Exhale completely through your mouth, making a whoosh sound to a count of 8.\n\n\n</string>
+    <string name="confirmFlw">OKAY I\'m following</string>
+    <string name="trainingText2">This is 1 breath.\nNow inhale again and repeat the cycle 3 more times for a total of 4 breaths.</string>
+    <string name="blank">\n\n\n</string>
+    <string name="openText">j</string>
+    <string name="setBLN">set HR baseline</string>
+    <string name="recordBLN">record as baseline Heart Rate</string>
+    <string name="recordedTip">\n\nPlease enter your name for baseline HR recording:)</string>
+    <string name="textview" />
+    <string name="checkHRTip">Enter your name to check baseline HR record</string>
+    <string name="Query">query</string>
+    <string name="askName">Name:</string>
+    <string name="queryGet" />
+    <string name="optBLN">useComfortZoneBaselinHR</string>
+    <string name="username">Use user\'s [comfort zone baseline HR] by name:</string>
+    <string name="useBLN">submit</string>
+    <string name="startBTr">Start Breath Training!</string>
+    <string name="startHR"> </string>
+    <string name="cmTip">Current Mood:</string>
+    <string name="extTip">Extent:</string>
+    <string name="situTip">Situation/Location: </string>
+    <string name="mtTip">My Thought:</string>
+    <string name="timingTip">Timing:</string>
+    <string name="nameTip">Name:</string>
+    <string name="nameHist">Enter the name of whose Mood Journal you want to check: </string>
+    <string name="histContent" />
+    <string name="submitJMP">Query</string>
+    <string name="edit">Edit</string>
+    <string name="title_activity_mood_journal_edit">MoodJournalEdit</string>
+    <string name="backback">back</string>
+    <string name="HRrecord" />
+    <string name="showHRRecord">show hr record</string>
+    <string name="update">update</string>
+    <string name="showPP" />
+    <string name="update2">update</string>
+
+</resources>

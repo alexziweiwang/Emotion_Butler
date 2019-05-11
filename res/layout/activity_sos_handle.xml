@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fluffy"
+    android:orientation="vertical"
+    tools:context="com.empatica.sample.sosHandle">
+
+    <TextView
+        android:id="@+id/blank08"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:text="@string/blank08" />
+
+    <LinearLayout
+        android:id="@+id/topLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/saveLife"
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:textColor="@android:color/black"
+            android:text="@string/save"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/toolKit"
+        android:layout_width="match_parent"
+        android:layout_height="189dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/openingText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/openingText"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/powerPool"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="@string/powerPool" />
+
+        <Button
+            android:id="@+id/posThinking"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="@string/positiveThinking" />
+
+        <Button
+            android:id="@+id/breatheTraining"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="@string/breatheTraining" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/botLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/back2"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="@string/back" />
+    </LinearLayout>
+</LinearLayout>

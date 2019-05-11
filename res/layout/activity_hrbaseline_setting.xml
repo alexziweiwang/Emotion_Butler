@@ -1,0 +1,164 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/water1"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/sosButton"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:text="@string/button" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/blank07"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/deviceName"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:id="@+id/dataArea"
+        android:layout_width="wrap_content"
+        android:layout_height="376dp"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/hrLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hrLabel"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/hrValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/wrist_status_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/wrist_status_label"
+            android:text="@string/emptyText"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/recordedTip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/recordedTip"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/askUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/askName"
+            android:textColor="@android:color/white" />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/white" />
+
+
+        <Button
+            android:id="@+id/recordBLN"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="@string/recordBLN" />
+
+        <Button
+            android:id="@+id/disconnectButton"
+            android:layout_width="160dp"
+            android:layout_height="36dp"
+            android:text="@string/stop"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textview" />
+
+    <LinearLayout
+        android:id="@+id/checkBLNFile"
+        android:layout_width="match_parent"
+        android:layout_height="206dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/checkHRTip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/checkHRTip"
+            android:textColor="@android:color/white" />
+
+        <EditText
+            android:id="@+id/queryName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/querySubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="@string/Query" />
+
+        <TextView
+            android:id="@+id/queryGet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/queryGet"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/backHomeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="282dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/backHome"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="@string/backHome" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/restartButton"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:text="@string/restartButton" />
+
+</LinearLayout>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bluesky1"
+    android:orientation="vertical"
+    tools:context="com.empatica.sample.PowerPool">
+
+    <LinearLayout
+        android:id="@+id/topArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/sosButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="@string/button" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="333dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/checkname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/checkname"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/checknameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/checkPower"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="@string/checkPower" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="    " />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/showPP"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textMultiLine"
+                    android:textColor="@android:color/black" />
+
+                <Button
+                    android:id="@+id/update2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:text="@string/update2" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/nextArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/onegood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/goodthing"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/onegoodInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/twoproud"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/goodthing2"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/twoproudInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/threeplan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/goodthing3"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/threeplanInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/nameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/recordBut"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="@string/recordBut" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/powerpoolcontent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/botLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/back2"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="@string/back" />
+    </LinearLayout>
+
+</LinearLayout>

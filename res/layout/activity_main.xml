@@ -1,0 +1,181 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/clouds"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/sosLayout"
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/sosButton"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="@string/button" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/opening"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/toolKit"
+        android:layout_width="match_parent"
+        android:layout_height="478dp"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/openingText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/openingText"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/blank07" />
+
+        <Button
+            android:id="@+id/toRC"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="@string/toRC" />
+
+        <Button
+            android:id="@+id/moodJournal"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="@string/mood_journal" />
+
+        <Button
+            android:id="@+id/powerPool"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="@string/powerPool" />
+
+        <Button
+            android:id="@+id/setBLN"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="@string/setBLN" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/showHR"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:text="@string/showHRRecord" />
+
+    <Button
+        android:id="@+id/restartButton"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:text="@string/restartButton" />
+
+    <LinearLayout
+        android:id="@+id/extraLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="false"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <LinearLayout
+            android:id="@+id/accel_area"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/accel_label"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/accel_x" />
+
+            <TextView
+                android:id="@+id/accel_x"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="50dp"
+                android:text="@string/emptyText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/accel_y" />
+
+            <TextView
+                android:id="@+id/accel_y"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="50dp"
+                android:text="@string/emptyText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/accel_z" />
+
+            <TextView
+                android:id="@+id/accel_z"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="50dp"
+                android:text="@string/emptyText" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/bvp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bvp_label"
+            android:text="@string/emptyText" />
+
+        <TextView
+            android:id="@+id/bvp_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/accel_area"
+            android:layout_marginTop="10dp"
+            android:text="@string/bvp_label" />
+
+        <TextView
+            android:id="@+id/ibi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ibi_label"
+            android:text="@string/emptyText" />
+
+        <TextView
+            android:id="@+id/ibi_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/eda"
+            android:layout_marginTop="10dp"
+            android:text="@string/ibi_label" />
+
+        <TextView
+            android:id="@+id/accel_label"
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="@string/accel" />
+    </LinearLayout>
+
+</LinearLayout>

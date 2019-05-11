@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/playa"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/sosButton"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:text="@string/button" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/blank07" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/deviceName"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"/>
+
+    <LinearLayout
+        android:id="@+id/dataArea"
+        android:layout_width="wrap_content"
+        android:layout_height="376dp"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/hrLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hrLabel"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/hrValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/wrist_status_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/wrist_status_label"
+            android:text="@string/emptyText"
+            android:textColor="@android:color/black" />
+
+
+        <Button
+            android:id="@+id/disconnectButton"
+            android:layout_width="160dp"
+            android:layout_height="36dp"
+            android:text="@string/stop"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/startHR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/startHR" />
+
+    <Button
+        android:id="@+id/startBtr"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:text="@string/startBTr" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="193dp"
+        android:text="@string/textview"
+        android:textColor="@android:color/black" />
+
+    <LinearLayout
+        android:id="@+id/backHomeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="282dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/backHome"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="@string/backHome" />
+    </LinearLayout>
+
+</LinearLayout>
